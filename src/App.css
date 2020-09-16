@@ -1,0 +1,47 @@
+header {
+  position: sticky;
+  top: 0; 
+  width: 100%; 
+  border: 1px solid #e7e7e7;
+  background-color: #b3b3b3;
+}
+.header-text {
+  position: absolute;
+  color: #e7e7e7;
+  padding-left: 4.5rem;
+}
+nav{
+  text-align: center;
+}
+main {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.1rem;
+}
+.nav-button {
+  text-align: center;
+  margin-left: 3px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  background-color: #b3b3b3;
+  padding: 15px;
+}
+
+.nav-button:hover {
+  color: rgb(2, 16, 80);
+  background-color: rgba(208, 219, 236, 0.815);
+  border-radius: 7px;
+  padding: 15px;
+}
+
+.active{
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-style: oblique;
+  background: rgba(241, 241, 241, 0.815);
+  border-radius: 7px;
+  transition: background 0.5s ease-out ;
+}
